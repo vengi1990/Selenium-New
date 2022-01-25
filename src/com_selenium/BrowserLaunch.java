@@ -55,6 +55,7 @@ public static void main(String[] args) throws InterruptedException, Throwable {
 	
 		WebDriver window = driver.switchTo().window(child1);
 		System.out.println(window.getTitle());
+		System.out.println("pull Successful");
 		
 	}
 	
